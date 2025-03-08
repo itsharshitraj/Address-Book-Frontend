@@ -1,0 +1,10 @@
+<!-- src/app/components/person-form/person-form.component.html -->
+
+<h2>Person Address Form</h2>
+<form [formGroup]="personForm" (ngSubmit)="savePerson()">
+    <label>Name: <input formControlName="name" /></label>
+    <label>Phone: <input formControlName="phone" /></label>
+    <label>Address: <input formControlName="address" /></label>
+    <button type="submit">Save</button>
+  </form>
+  

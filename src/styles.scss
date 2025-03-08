@@ -1,1 +1,113 @@
-/* You can add global styles to this file, and also import other style files */
+    /* General Page Styling */
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f8f9fa;
+      margin: 0;
+      padding: 0;
+    }
+    button img {
+      width: 24px;
+      height: 24px;
+      cursor: pointer;
+      vertical-align: middle;
+    }
+    .logo img {
+      width: 150px;
+      height: auto;
+    }
+
+
+
+    .container {
+      width: 90%;
+      margin: auto;
+      padding: 20px;
+    }
+
+    /* Header Styling */
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: white;
+      padding: 15px;
+      border-bottom: 2px solid #ddd;
+    }
+
+    .logo {
+      display: flex;
+      align-items: center;
+    }
+
+    .logo img {
+      width: 40px;
+      height: 40px;
+      margin-right: 10px;
+    }
+
+    .header h1 {
+      font-size: 20px;
+      font-weight: bold;
+      color: #333;
+    }
+
+    .add-btn {
+      background: #007bff;
+      color: white;
+      border: none;
+      padding: 10px 15px;
+      cursor: pointer;
+      border-radius: 5px;
+      font-weight: bold;
+    }
+
+    .add-btn:hover {
+      background: #0056b3;
+    }
+
+    /* Title */
+    .title {
+      font-size: 18px;
+      font-weight: bold;
+      margin-top: 20px;
+    }
+
+    /* Table Styling */
+    .person-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 10px;
+    }
+
+    .person-table th,
+    .person-table td {
+      padding: 10px;
+      border: 1px solid #ddd;
+      text-align: left;
+    }
+
+    .person-table th {
+      background: #f1f1f1;
+    }
+
+    .person-table tr:nth-child(even) {
+      background: #f9f9f9;
+    }
+
+    /* Icons */
+    .icon-btn {
+      border: none;
+      background: none;
+      cursor: pointer;
+      margin-right: 5px;
+    }
+
+    .icon-btn img {
+      width: 18px;
+      height: 18px;
+    }
+
+    .icon-btn:hover img {
+      opacity: 0.7;
+    }
+
